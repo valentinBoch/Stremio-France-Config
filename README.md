@@ -5,7 +5,7 @@ Optimisez Stremio en France : addons, débrideur et configuration prête à l’
 ## 📌 1. Créez un compte Stremio
 
 Avant tout, vous devez créer un compte Stremio :  
-- [Créer un compte Stremio](https://www.stremio.com/en/downloads)  
+- [Créer un compte Stremio](https://www.stremio.com/)  
 - Téléchargez et installez l'application sur votre plateforme : Windows, macOS, Linux, Android, iOS.  
 
 ---
