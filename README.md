@@ -12,10 +12,11 @@ Avant tout, vous devez créer un compte Stremio :
 
 ## 🔑 2. Configurez un débrideur
 
-Pour profiter pleinement des contenus, un débrideur est nécessaire. Nous recommandons **Torbox** :  
-- [S’abonner à Torbox](https://www.torbox.app/subscription?referral=3f98b0bb-0ac6-4108-a932-54d1853f1f4b) (lien de parrainage)  
+Pour profiter pleinement des contenus, un débrideur est nécessaire. J'utilise personnellement Torbox, vous pouvez utiliser AllDebrid si vous préférez :  
+- [S’abonner à Torbox](https://www.torbox.app/)
+- [S’abonner à AllDebrid](https://alldebrid.fr/)
 
-Torbox vous permettra d’accéder aux fichiers en cache sur différentes plateformes.
+Torbox ou AllDebrid vous permettront d’accéder aux fichiers en cache sur différentes plateformes.
 
 ---
 
