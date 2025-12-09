@@ -56,12 +56,12 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
   1. Ajoutez le Bot Telegram : [t.me/Stremiofr_bot](https://t.me/Stremiofr_bot)
   2. Envoyez la commande /generate
 - Pour importer ma configuration JSON :  
-  1. Rendez-vous sur [AIOStreams](https://aiostreams.stremiofr.com/)  
+  1. Rendez-vous sur [AIOStreams](https://aiostreamsfortheweebsstable.midnightignite.me/stremio/configure)  
   2. Sélectionnez **Setup Mode → Advanced**  
   3. Cliquez sur **Start Setup**  
   4. Cliquez sur **Use Template**  
   5. En bas à droite, utilisez le bouton pour importer le fichier JSON :  
-     - `aiostreams-2025-12-08.14-50-47-1kllqf2-template.json`  
+     - `aiostreams-template.json`  
 
 ---
 
