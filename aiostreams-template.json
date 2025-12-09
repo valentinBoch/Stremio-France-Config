@@ -99,6 +99,7 @@
           "resources": [
             "stream"
           ],
+          "url": "https://comet.stremiofr.com",
           "includeP2P": false,
           "removeTrash": true,
           "mediaTypes": []
