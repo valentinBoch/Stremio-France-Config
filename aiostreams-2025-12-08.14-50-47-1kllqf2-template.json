@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2025-12-08.21-56-55-qq3qk8o",
+    "id": "aiostreams-🥖-2025-12-09.17-48-44-xqnjn95",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
     "author": "valentinBoch",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "category": "Debrid",
     "serviceRequired": false,
     "setToSaveInstallMenu": true
@@ -13,12 +13,17 @@
   "config": {
     "services": [
       {
-        "id": "alldebrid",
+        "id": "torbox",
         "enabled": true,
         "credentials": {}
       },
       {
         "id": "realdebrid",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "alldebrid",
         "enabled": false,
         "credentials": {}
       },
@@ -29,16 +34,6 @@
       },
       {
         "id": "debridlink",
-        "enabled": false,
-        "credentials": {}
-      },
-      {
-        "id": "torbox",
-        "enabled": false,
-        "credentials": {}
-      },
-      {
-        "id": "stremio_nntp",
         "enabled": false,
         "credentials": {}
       },
@@ -86,6 +81,11 @@
         "id": "seedr",
         "enabled": false,
         "credentials": {}
+      },
+      {
+        "id": "stremio_nntp",
+        "enabled": false,
+        "credentials": {}
       }
     ],
     "presets": [
@@ -101,6 +101,9 @@
           ],
           "includeP2P": false,
           "removeTrash": true,
+          "services": [
+            "torbox"
+          ],
           "mediaTypes": []
         }
       },
@@ -110,7 +113,7 @@
         "enabled": true,
         "options": {
           "name": "Torrentio",
-          "timeout": 15000,
+          "timeout": 6500,
           "resources": [
             "stream",
             "meta"
@@ -124,7 +127,10 @@
             "torrentgalaxy",
             "besttorrents"
           ],
-          "useMultipleInstances": false
+          "useMultipleInstances": false,
+          "services": [
+            "torbox"
+          ]
         }
       },
       {
@@ -138,7 +144,10 @@
             "stream"
           ],
           "url": "https://jackettio.stremiofr.com/",
-          "mediaTypes": []
+          "mediaTypes": [],
+          "services": [
+            "torbox"
+          ]
         }
       },
       {
@@ -164,6 +173,9 @@
           ],
           "torrenting": false,
           "mediaTypes": [],
+          "services": [
+            "torbox"
+          ],
           "streamFusionApiKey": "<template_placeholder>"
         }
       },
@@ -180,7 +192,10 @@
           "url": "https://stremthru.stremio.ru/stremio/torz",
           "mediaTypes": [],
           "includeP2P": false,
-          "useMultipleInstances": false
+          "useMultipleInstances": false,
+          "services": [
+            "torbox"
+          ]
         }
       },
       {
@@ -197,7 +212,10 @@
           ],
           "url": "https://stremthru.stremio.ru/stremio/store",
           "mediaTypes": [],
-          "webDl": true
+          "webDl": true,
+          "services": [
+            "torbox"
+          ]
         }
       },
       {
@@ -279,7 +297,7 @@
       ],
       "uncached": [
         {
-          "key": "seeders",
+          "key": "size",
           "direction": "desc"
         }
       ]
