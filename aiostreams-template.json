@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2025-12-10.11-27-34-el2kefz",
+    "id": "aiostreams-🥖-2025-12-10.19-19-41-9j730aq",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
@@ -106,38 +106,6 @@
         }
       },
       {
-        "type": "comet",
-        "instanceId": "aa8",
-        "enabled": true,
-        "options": {
-          "name": "Comet",
-          "timeout": 15000,
-          "resources": [
-            "stream"
-          ],
-          "includeP2P": false,
-          "removeTrash": true,
-          "mediaTypes": [],
-          "url": "https://comet.stremiofr.com"
-        }
-      },
-      {
-        "type": "comet",
-        "instanceId": "e4b",
-        "enabled": true,
-        "options": {
-          "name": "Comet",
-          "timeout": 15000,
-          "resources": [
-            "stream"
-          ],
-          "url": "https://cometfortheweebs.midnightignite.me",
-          "includeP2P": false,
-          "removeTrash": true,
-          "mediaTypes": []
-        }
-      },
-      {
         "type": "jackettio",
         "instanceId": "fe2",
         "enabled": true,
@@ -147,21 +115,7 @@
           "resources": [
             "stream"
           ],
-          "url": "https://jackettio.stremiofr.com/",
-          "mediaTypes": []
-        }
-      },
-      {
-        "type": "jackettio",
-        "instanceId": "dd2",
-        "enabled": true,
-        "options": {
-          "name": "Jackettio",
-          "timeout": 15000,
-          "resources": [
-            "stream"
-          ],
-          "url": "https://jackettiofortheweebs.midnightignite.me",
+          "url": "https://jackettio.stremiofr.com",
           "mediaTypes": []
         }
       },
@@ -208,22 +162,6 @@
       },
       {
         "type": "stremthruTorz",
-        "instanceId": "dc1",
-        "enabled": true,
-        "options": {
-          "name": "StremThru Torz",
-          "timeout": 15000,
-          "resources": [
-            "stream"
-          ],
-          "url": "https://stremthrufortheweebs.midnightignite.me/stremio/torz",
-          "mediaTypes": [],
-          "includeP2P": false,
-          "useMultipleInstances": false
-        }
-      },
-      {
-        "type": "stremthruTorz",
         "instanceId": "a0f",
         "enabled": true,
         "options": {
@@ -250,7 +188,6 @@
             "meta",
             "catalog"
           ],
-          "url": "https://stremthrufortheweebs.midnightignite.me/stremio/store",
           "mediaTypes": [],
           "webDl": true
         }
@@ -347,12 +284,30 @@
         "infoHash",
         "smartDetect"
       ],
-      "cached": "single_result",
-      "uncached": "disabled",
+      "cached": "per_service",
+      "uncached": "per_service",
       "p2p": "disabled"
     },
+    "proxy": {
+      "id": "mediaflow",
+      "proxiedAddons": [],
+      "proxiedServices": []
+    },
+    "excludeUncachedFromAddons": [
+      "739",
+      "537"
+    ],
+    "excludeUncachedFromServices": [],
+    "excludeUncachedFromStreamTypes": [],
+    "excludeCachedFromAddons": [],
+    "excludeCachedFromServices": [],
+    "excludeCachedFromStreamTypes": [],
+    "preferredEncodes": [],
+    "preferredStreamTypes": [],
+    "preferredVisualTags": [],
+    "preferredAudioTags": [],
     "trusted": false,
-    "addonName": "AIOStream 🥖",
+    "addonName": "AIOStreams 🍬",
     "excludedResolutions": [],
     "includedResolutions": [],
     "requiredResolutions": [],
@@ -369,11 +324,9 @@
     ],
     "includedVisualTags": [],
     "requiredVisualTags": [],
-    "preferredVisualTags": [],
     "excludedAudioTags": [],
     "includedAudioTags": [],
     "requiredAudioTags": [],
-    "preferredAudioTags": [],
     "excludedAudioChannels": [],
     "includedAudioChannels": [],
     "requiredAudioChannels": [],
@@ -381,18 +334,15 @@
     "excludedStreamTypes": [],
     "includedStreamTypes": [],
     "requiredStreamTypes": [],
-    "preferredStreamTypes": [],
     "excludedEncodes": [
       "AV1"
     ],
     "includedEncodes": [],
     "requiredEncodes": [],
-    "preferredEncodes": [],
     "excludedRegexPatterns": [],
     "includedRegexPatterns": [],
     "requiredRegexPatterns": [],
     "preferredRegexPatterns": [],
-    "includedKeywords": [],
     "excludedKeywords": [
       "m2ts",
       ".m2ts",
@@ -424,17 +374,7 @@
     "ageRangeTypes": [
       "usenet"
     ],
-    "digitalReleaseFilter": false,
-    "excludeCachedFromAddons": [],
-    "excludeCachedFromServices": [],
-    "excludeCachedFromStreamTypes": [],
     "excludeUncached": false,
-    "excludeUncachedFromAddons": [
-      "739",
-      "537"
-    ],
-    "excludeUncachedFromServices": [],
-    "excludeUncachedFromStreamTypes": [],
     "excludeUncachedMode": "or",
     "excludedStreamExpressions": [],
     "requiredStreamExpressions": [],
@@ -447,15 +387,6 @@
     "groups": {
       "enabled": false,
       "groupings": []
-    },
-    "proxy": {
-      "id": "mediaflow",
-      "proxiedAddons": [],
-      "proxiedServices": []
-    },
-    "resultLimits": {
-      "global": 20,
-      "resolution": 6
     },
     "size": {
       "global": {
@@ -564,6 +495,12 @@
     "externalDownloads": false,
     "cacheAndPlay": {
       "streamTypes": []
+    },
+    "includedKeywords": [],
+    "digitalReleaseFilter": false,
+    "resultLimits": {
+      "global": 20,
+      "resolution": 6
     },
     "addonDescription": "Stremio avec une configuration optimisée pour la France !"
   }
