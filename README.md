@@ -10,9 +10,9 @@ Avant tout, vous devez créer un compte Stremio :
 
 ---
 
-## 🔑 2. S'inscrire chez un débrideur
+## ⚡️ 2. S'inscrire chez un débrideur
 
-Pour profiter pleinement des contenus, un débrideur est nécessaire. J'utilise personnellement Torbox, vous pouvez utiliser AllDebrid si vous préférez :  
+Pour profiter pleinement des contenus, un débrideur est nécessaire. J'utilise Torbox et AllDebrid, les deux ont leurs avantages, les deux offrent un essai gratuit, à vous de tester :  
 - [S’abonner à Torbox](https://www.torbox.app/) (Optionel mon code de parrainage **3f98b0bb-0ac6-4108-a932-54d1853f1f4b**)
 - [S’abonner à AllDebrid](https://alldebrid.fr/)
 
