@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2025-12-09.22-59-26-305o1rk",
+    "id": "aiostreams-🥖-2025-12-10.11-27-34-el2kefz",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
@@ -13,12 +13,17 @@
   "config": {
     "services": [
       {
-        "id": "alldebrid",
+        "id": "torbox",
         "enabled": true,
         "credentials": {}
       },
       {
         "id": "realdebrid",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "alldebrid",
         "enabled": false,
         "credentials": {}
       },
@@ -30,11 +35,6 @@
       {
         "id": "debridlink",
         "enabled": false,
-        "credentials": {}
-      },
-      {
-        "id": "torbox",
-        "enabled": true,
         "credentials": {}
       },
       {
@@ -91,6 +91,22 @@
     "presets": [
       {
         "type": "comet",
+        "instanceId": "1fd",
+        "enabled": true,
+        "options": {
+          "name": "Comet",
+          "timeout": 15000,
+          "resources": [
+            "stream"
+          ],
+          "url": "https://comet.stremio.ru",
+          "includeP2P": false,
+          "removeTrash": true,
+          "mediaTypes": []
+        }
+      },
+      {
+        "type": "comet",
         "instanceId": "aa8",
         "enabled": true,
         "options": {
@@ -99,10 +115,10 @@
           "resources": [
             "stream"
           ],
-          "url": "https://comet.stremiofr.com",
           "includeP2P": false,
           "removeTrash": true,
-          "mediaTypes": []
+          "mediaTypes": [],
+          "url": "https://comet.stremiofr.com"
         }
       },
       {
@@ -201,6 +217,22 @@
             "stream"
           ],
           "url": "https://stremthrufortheweebs.midnightignite.me/stremio/torz",
+          "mediaTypes": [],
+          "includeP2P": false,
+          "useMultipleInstances": false
+        }
+      },
+      {
+        "type": "stremthruTorz",
+        "instanceId": "a0f",
+        "enabled": true,
+        "options": {
+          "name": "StremThru Torz",
+          "timeout": 15000,
+          "resources": [
+            "stream"
+          ],
+          "url": "https://stremthru.13377001.xyz/stremio/torz",
           "mediaTypes": [],
           "includeP2P": false,
           "useMultipleInstances": false
@@ -315,17 +347,12 @@
         "infoHash",
         "smartDetect"
       ],
-      "cached": "per_service",
-      "uncached": "per_service",
+      "cached": "single_result",
+      "uncached": "disabled",
       "p2p": "disabled"
     },
-    "proxy": {
-      "id": "mediaflow",
-      "proxiedAddons": [],
-      "proxiedServices": []
-    },
     "trusted": false,
-    "addonName": "AIOStream [AD + TB] 🥖",
+    "addonName": "AIOStream 🥖",
     "excludedResolutions": [],
     "includedResolutions": [],
     "requiredResolutions": [],
@@ -406,9 +433,7 @@
       "739",
       "537"
     ],
-    "excludeUncachedFromServices": [
-      "torbox"
-    ],
+    "excludeUncachedFromServices": [],
     "excludeUncachedFromStreamTypes": [],
     "excludeUncachedMode": "or",
     "excludedStreamExpressions": [],
@@ -417,11 +442,16 @@
     "includedStreamExpressions": [],
     "dynamicAddonFetching": {
       "enabled": true,
-      "condition": "count(cached(totalStreams))>6 and totalTimeTaken > 4000"
+      "condition": "count(cached(totalStreams))>6 or totalTimeTaken > 3000"
     },
     "groups": {
       "enabled": false,
       "groupings": []
+    },
+    "proxy": {
+      "id": "mediaflow",
+      "proxiedAddons": [],
+      "proxiedServices": []
     },
     "resultLimits": {
       "global": 20,
@@ -487,39 +517,6 @@
     "alwaysPrecache": false,
     "catalogModifications": [
       {
-        "id": "369c7bf.st:store:ad",
-        "type": "other",
-        "name": "Store AD",
-        "shuffle": false,
-        "enabled": true,
-        "rpdb": false,
-        "hideable": true,
-        "searchable": true,
-        "addonName": "StremThru Store"
-      },
-      {
-        "id": "7594bd7.recently_added_movies",
-        "type": "movie",
-        "name": "YGGtorrent - Récemment Ajoutés",
-        "shuffle": false,
-        "enabled": true,
-        "rpdb": false,
-        "hideable": true,
-        "searchable": false,
-        "addonName": "StreamFusion"
-      },
-      {
-        "id": "7594bd7.recently_added_tv_shows",
-        "type": "series",
-        "name": "YGGtorrent - Récemment Ajoutées",
-        "shuffle": false,
-        "enabled": true,
-        "rpdb": false,
-        "hideable": true,
-        "searchable": false,
-        "addonName": "StreamFusion"
-      },
-      {
         "id": "369791b.st:store:tb",
         "type": "other",
         "name": "Store TB",
@@ -540,11 +537,34 @@
         "hideable": true,
         "searchable": true,
         "addonName": "StremThru Store"
+      },
+      {
+        "id": "759791b.recently_added_movies",
+        "name": "YGGtorrent - Récemment Ajoutés",
+        "type": "movie",
+        "enabled": true,
+        "shuffle": false,
+        "rpdb": false,
+        "hideable": true,
+        "searchable": false,
+        "addonName": "StreamFusion"
+      },
+      {
+        "id": "759791b.recently_added_tv_shows",
+        "name": "YGGtorrent - Récemment Ajoutées",
+        "type": "series",
+        "enabled": true,
+        "shuffle": false,
+        "rpdb": false,
+        "hideable": true,
+        "searchable": false,
+        "addonName": "StreamFusion"
       }
     ],
     "externalDownloads": false,
     "cacheAndPlay": {
       "streamTypes": []
-    }
+    },
+    "addonDescription": "Stremio avec une configuration optimisée pour la France !"
   }
 }
