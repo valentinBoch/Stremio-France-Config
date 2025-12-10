@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2025-12-10.19-19-41-9j730aq",
+    "id": "aiostreams-🥖-2025-12-10.19-26-32-mwq1eym",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
     "author": "valentinBoch",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "category": "Debrid",
     "serviceRequired": false,
     "setToSaveInstallMenu": true
@@ -284,8 +284,8 @@
         "infoHash",
         "smartDetect"
       ],
-      "cached": "per_service",
-      "uncached": "per_service",
+      "cached": "single_result",
+      "uncached": "disabled",
       "p2p": "disabled"
     },
     "proxy": {
@@ -307,7 +307,7 @@
     "preferredVisualTags": [],
     "preferredAudioTags": [],
     "trusted": false,
-    "addonName": "AIOStreams 🍬",
+    "addonName": "AIOStreams 🥖",
     "excludedResolutions": [],
     "includedResolutions": [],
     "requiredResolutions": [],
@@ -471,10 +471,10 @@
       },
       {
         "id": "759791b.recently_added_movies",
-        "name": "YGGtorrent - Récemment Ajoutés",
         "type": "movie",
-        "enabled": true,
+        "name": "YGGtorrent - Récemment Ajoutés",
         "shuffle": false,
+        "enabled": true,
         "rpdb": false,
         "hideable": true,
         "searchable": false,
@@ -482,10 +482,10 @@
       },
       {
         "id": "759791b.recently_added_tv_shows",
-        "name": "YGGtorrent - Récemment Ajoutées",
         "type": "series",
-        "enabled": true,
+        "name": "YGGtorrent - Récemment Ajoutées",
         "shuffle": false,
+        "enabled": true,
         "rpdb": false,
         "hideable": true,
         "searchable": false,
