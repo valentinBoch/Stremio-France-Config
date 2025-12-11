@@ -36,9 +36,10 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
   2. Dans la partie **Intégration**, saisissez vos clés API TMDB et TheTVDB  
   3. Dans **Général**, choisissez la langue **French (France)**  
   4. Dans **Catalog**, vous pouvez sélectionner vos favoris  
-  5. Ou importer directement ma configuration JSON :  
+  5. Ou importez directement ma configuration JSON :  
      - `aiometadata-config-2025-12-02.json`  
-     - Cliquez sur **Importer JSON** depuis l’onglet **Configuration**  
+     - Cliquez sur **Importer JSON** depuis l’onglet **Configuration**
+  6. Sauvegardez la configuration afin d'obtenir l'URL d'installation de l'addon
 
 ---
 
