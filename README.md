@@ -40,13 +40,15 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
      - `aiometadata-config-2025-12-02.json`  
      - Cliquez sur **Importer JSON** depuis l’onglet **Configuration**
   6. Sauvegardez la configuration afin d'obtenir l'URL d'installation de l'addon
+  7. Récupérez l'URL de votre configuration et ajoutez l'addon sur la [version web de Stremio](https://web.stremio.com/#/addons)
 
 ---
 
 ### 3.2 Top Streaming
 
 - Permet d’accéder au Top 10 des contenus par plateforme (Netflix, Amazon Prime…) et par pays.  
-- Configurable ici : [Top Streaming Config](https://top-streaming.stream/configure)  
+- Configurable ici : [Top Streaming Config](https://top-streaming.stream/configure)
+- Récupérez l'URL de votre configuration et ajoutez l'addon sur la [version web de Stremio](https://web.stremio.com/#/addons)
 
 ---
 
@@ -62,8 +64,10 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
   3. Cliquez sur **Start Setup**  
   4. Cliquez sur **Use Template**  
   5. En bas à droite, utilisez le bouton pour importer le fichier JSON :  
-     - `aiostreams-template.json`  
-
+     - `aiostreams-template.json`
+  6. Ensuite vous pouvez enregistrer la configuration. (Attention si vous utilisez **AllDebrid**, il faut accepter la demande de connexion reçu par mail)
+  7. Récupérez l'URL de votre configuration et ajoutez l'addon sur la [version web de Stremio](https://web.stremio.com/#/addons)
+  
 ---
 
 ## ⚙️ 4. Organisez vos addons
