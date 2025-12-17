@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2025-12-10.19-26-32-mwq1eym",
+    "id": "aiostreams-🥖-2025-12-17.12-03-44-iyhg1w7",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
     "author": "valentinBoch",
-    "version": "1.1.2",
+    "version": "1.0.0",
     "category": "Debrid",
     "serviceRequired": false,
     "setToSaveInstallMenu": true
@@ -202,6 +202,25 @@
           "mediaTypes": [],
           "useMultipleInstances": false
         }
+      },
+      {
+        "type": "mediafusion",
+        "instanceId": "132",
+        "enabled": true,
+        "options": {
+          "name": "MediaFusion",
+          "timeout": 15000,
+          "resources": [
+            "stream"
+          ],
+          "useCachedResultsOnly": true,
+          "enableWatchlistCatalogs": false,
+          "downloadViaBrowser": false,
+          "contributorStreams": false,
+          "certificationLevelsFilter": [],
+          "nudityFilter": [],
+          "mediaTypes": []
+        }
       }
     ],
     "formatter": {
@@ -262,11 +281,27 @@
       "series": [],
       "cached": [
         {
+          "key": "resolution",
+          "direction": "desc"
+        },
+        {
+          "key": "regexPatterns",
+          "direction": "desc"
+        },
+        {
           "key": "size",
           "direction": "desc"
         }
       ],
       "uncached": [
+        {
+          "key": "resolution",
+          "direction": "desc"
+        },
+        {
+          "key": "regexPatterns",
+          "direction": "desc"
+        },
         {
           "key": "size",
           "direction": "desc"
@@ -288,26 +323,9 @@
       "uncached": "disabled",
       "p2p": "disabled"
     },
-    "proxy": {
-      "id": "mediaflow",
-      "proxiedAddons": [],
-      "proxiedServices": []
-    },
-    "excludeUncachedFromAddons": [
-      "739",
-      "537"
-    ],
-    "excludeUncachedFromServices": [],
-    "excludeUncachedFromStreamTypes": [],
-    "excludeCachedFromAddons": [],
-    "excludeCachedFromServices": [],
-    "excludeCachedFromStreamTypes": [],
-    "preferredEncodes": [],
-    "preferredStreamTypes": [],
-    "preferredVisualTags": [],
-    "preferredAudioTags": [],
     "trusted": false,
     "addonName": "AIOStreams 🥖",
+    "addonDescription": "Stremio avec une configuration optimisée pour la France !",
     "excludedResolutions": [],
     "includedResolutions": [],
     "requiredResolutions": [],
@@ -324,9 +342,11 @@
     ],
     "includedVisualTags": [],
     "requiredVisualTags": [],
+    "preferredVisualTags": [],
     "excludedAudioTags": [],
     "includedAudioTags": [],
     "requiredAudioTags": [],
+    "preferredAudioTags": [],
     "excludedAudioChannels": [],
     "includedAudioChannels": [],
     "requiredAudioChannels": [],
@@ -334,15 +354,23 @@
     "excludedStreamTypes": [],
     "includedStreamTypes": [],
     "requiredStreamTypes": [],
+    "preferredStreamTypes": [],
     "excludedEncodes": [
       "AV1"
     ],
     "includedEncodes": [],
     "requiredEncodes": [],
+    "preferredEncodes": [],
     "excludedRegexPatterns": [],
     "includedRegexPatterns": [],
     "requiredRegexPatterns": [],
-    "preferredRegexPatterns": [],
+    "preferredRegexPatterns": [
+      {
+        "name": "✨",
+        "pattern": "^.*[.\\-\\[\\]\\(\\) ](?:4FR|Aisha|AAjango|ALFA|ALLDAYiN|AMB3R|Amen|ANMWR|ANGERFIST007|ARK01|AZAZE|AZR|AXLBEN|BATGirl|BANKAi|BAWLS|BDHD|BENDER_37|BLACKPANTERS|BLACKANGEL|BLAP|BOOLZ|BOUC|BODIE|BRINK|BTTHD|BtRs|BTT|BULITT|BULiTT|BURNToDISC|BYHGO|CARAPILS|CHARTAIR|CHERRYcoke|CHOCO|CiELOS|CiNEMA|CMBHD|CoRa|COUAC|CRYPT0|CLASSICS|CYSTEiNE|DAM|D4KiD|DEAL|DeSs|DiEBEX|Djona12|DREAM|DUFF|DUPLI|DUSS|DUSTiN|DWS|E\\.T|ELCRACKITO|ENJOi|ESPER|EUBDS|EXTREME|FCK|FERVEX|FiDELiO|FiDO|FLOP|ForceBleue|FoX|FREAMON|FRATERNiTY|FRiES|FROSTIES|FRiENDS|FULLSiZE|FUTiL|FW|FWDHD|FTMVHD|GASMAK|GHZ|GHoST|GHOULS|GHT|GiMBAP|GLiMMER|GLaDOS|GOLDEN|Goldenyann|GOATLOVE|GUACAMOLE|GWEN|Hanami|H4S5S|HD2|HDKING|HDRA|HEAVYWEIGHT|HERC|HiggsBoson|HiRoSHiMa|HYBRiS|HyDe|HYO|iDySoNaP|JAQC|J4CK|JiHEFF|JMT|JP48|JoKeR|JRabbit|JUSTICELEAGUE|JuRDeN|K7|KAF|KAZETV|KBNawak|KENOBi3838|Kaoru111|KFL|LACTEL|LAOZI|LAZARUS|LEGdna|LEON|LiBERTAD|LiHDL|LOOKAMI|LOFiDEL|LOST|LOWIMDB|LUCKY|LYPSG|LazerTeam|MAGiCAL|MANGACiTY|MARBLECAKE|MAXAGAZ|Maxadonf|MAXiBENoul|McNULTY|MCSwi|MELBA|MELLOWMAN|MiND|MOONLY|MORELAND|MOO|MUNSTER|MULTIVISION|MUSTANG|MUxHD|Mad\\.Darks27|MAN OF STYLE|mHDgz|MrS|NGRP|NERDHD|NERO|NONE|NOEX|NTK|NRZ|OBI|OBSTACLE|OKENEDET|OOHLALA|ONLY|ONLYMOViE|OVD|OXTORRENT|OZEF|PARISTOCAT|PATOMiEL|PATOPESTO|PEPiTE|P4TRi0T|PCH|PiNKPANTERS|PICKLES|PKPTRS|POP|POURMOi|PopHD|PREM|PROPJOE|PURE|PUREWASTEOFBW|PSY4|PuNiSHeR03|QC63|QUALiTY|QUEBEC63|QTZ|REBiRTH|R3MiX|RiFiFi|ROMKENT|Rough|RUDE|R2D2X|RYOTOX|S4LVE|SAFETY|SAL|SASHiMi|SESKAPILE|SESKAPiLE|SEL|SEiGHT|SENSei|SHADOW|SHEEEiT|Shamir|Sicario|SILVIODANTE|SLEEPINGFOREST|Slay3R|SN2P|SODAPOP|SPINE|SPOiLER|STARLIGHTER|STRINGERBELL|SUBZERO|SUNNY|SUNRiSE|SUPPLY|THESYNDiCATE|THiNK|THREESOME|TiMELiNE|TiNA|T3KASHi|TFA|TFR|TkHD|TheChirola|Tetine|TigersClassics|Torrent9|TRUNKDU92|TSuNaMi|TSC|toto70300|TyHD|ULSHD|ULYSSE|UKDHD|UKDTV|ukdhd|URY|USUNSKiLLED|USURY|VENUE|VFC|VFF|VoMiT|Wednesday29th|Wink|Winks|WMTorrent|XANTAR|Y4Y4|ZEKEY|ZEST|Z3US|ZinGy|ZiRCON|ZiT|Chris44|Cyrill2000|ludsfa|psy4|sozer|zza|SERQPH|Neostark|MULTiViSiON|bouba|CherryCoke|ulysse|OPTIMUM|Kenobi38|Dread|ShC23|SLM|PiCKLES|Ulysse|LITY|Plemo|RiPiT|BABA|BraD|AvALoN|SF2|AViTECH|PiCK|SACRiLEGE|HK31|MMCLX|iLynx|PREUMS|dooley|LDCS|MAMA|gismo65|WAlbator|b4dly|HiDeF|KLP33|MenZo|TRiCLUPRiD|LeSharkoiste|NOWiNHD|Hom3r|JiHeff|baron|ALCOOL|ROUGH|OkenEdet|AmineCamd|PiKES|chrisj42|D5T0|Temouche|Punisher694|ZezLD|GLUPS|Portos|HDZ|SANTACRUZ|c3r153|Burntodisc|SyND|QC|T0M|Tsundere-Raws|BOUBA|higgsboson|VFQ|VF2)(?:[.\\-\\[\\]\\(\\) ].*)?$"
+      }
+    ],
+    "includedKeywords": [],
     "excludedKeywords": [
       "m2ts",
       ".m2ts",
@@ -374,7 +402,17 @@
     "ageRangeTypes": [
       "usenet"
     ],
+    "digitalReleaseFilter": false,
+    "excludeCachedFromAddons": [],
+    "excludeCachedFromServices": [],
+    "excludeCachedFromStreamTypes": [],
     "excludeUncached": false,
+    "excludeUncachedFromAddons": [
+      "739",
+      "537"
+    ],
+    "excludeUncachedFromServices": [],
+    "excludeUncachedFromStreamTypes": [],
     "excludeUncachedMode": "or",
     "excludedStreamExpressions": [],
     "requiredStreamExpressions": [],
@@ -388,11 +426,20 @@
       "enabled": false,
       "groupings": []
     },
+    "proxy": {
+      "id": "mediaflow",
+      "proxiedAddons": [],
+      "proxiedServices": []
+    },
+    "resultLimits": {
+      "global": 30,
+      "resolution": 15
+    },
     "size": {
       "global": {
         "movies": [
           0,
-          35000000000
+          37000000000
         ]
       }
     },
@@ -452,7 +499,7 @@
         "type": "other",
         "name": "Store TB",
         "shuffle": false,
-        "enabled": true,
+        "enabled": false,
         "rpdb": false,
         "hideable": true,
         "searchable": true,
@@ -463,7 +510,7 @@
         "type": "other",
         "name": "Store TB-WEBDL",
         "shuffle": false,
-        "enabled": true,
+        "enabled": false,
         "rpdb": false,
         "hideable": true,
         "searchable": true,
@@ -495,13 +542,6 @@
     "externalDownloads": false,
     "cacheAndPlay": {
       "streamTypes": []
-    },
-    "includedKeywords": [],
-    "digitalReleaseFilter": false,
-    "resultLimits": {
-      "global": 20,
-      "resolution": 6
-    },
-    "addonDescription": "Stremio avec une configuration optimisée pour la France !"
+    }
   }
 }
