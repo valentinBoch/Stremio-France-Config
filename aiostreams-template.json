@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2025-12-17.12-03-44-iyhg1w7",
+    "id": "aiostreams-🥖-2025-12-17.12-05-15-fank9ky",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
@@ -420,7 +420,7 @@
     "includedStreamExpressions": [],
     "dynamicAddonFetching": {
       "enabled": true,
-      "condition": "count(cached(totalStreams))>6 or totalTimeTaken > 3000"
+      "condition": "totalTimeTaken > 3000"
     },
     "groups": {
       "enabled": false,
