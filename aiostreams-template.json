@@ -146,22 +146,6 @@
       },
       {
         "type": "stremthruTorz",
-        "instanceId": "2c4",
-        "enabled": true,
-        "options": {
-          "name": "StremThru Torz",
-          "timeout": 15000,
-          "resources": [
-            "stream"
-          ],
-          "url": "https://stremthru.stremio.ru/stremio/torz",
-          "mediaTypes": [],
-          "includeP2P": false,
-          "useMultipleInstances": false
-        }
-      },
-      {
-        "type": "stremthruTorz",
         "instanceId": "a0f",
         "enabled": true,
         "options": {
