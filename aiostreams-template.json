@@ -439,7 +439,7 @@
       "addons": []
     },
     "autoPlay": {
-      "enabled": false,
+      "enabled": true,
       "attributes": [
         "service",
         "proxied",
