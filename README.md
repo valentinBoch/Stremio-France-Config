@@ -73,7 +73,7 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
 ## ⚙️ 4. Organisez vos addons
 
 Une fois tous les addons installés, vous devez les mettre dans le bon ordre :  
-- [Addon Manager](https://addon-manager.stremiofr.com/)  
+- [Addon Manager]([https://addon-manager.stremiofr.com/](https://stremio-addon-manager.vercel.app/))  
 
 **Ordre recommandé :**  
 1. AIOMetadata | ElfHosted  
