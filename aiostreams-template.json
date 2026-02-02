@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2025-12-27.13-24-16-mecd2bd",
+    "id": "aiostreams-🥖-2026-02-02.17-53-49-qkv7814",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
@@ -94,54 +94,30 @@
         "instanceId": "1fd",
         "enabled": true,
         "options": {
-          "name": "Comet",
+          "name": "Comet (dev)",
           "timeout": 15000,
           "resources": [
             "stream"
           ],
-          "url": "https://comet.stremiofr.com",
+          "url": "https://comet.feels.legal",
           "includeP2P": false,
           "removeTrash": true,
           "mediaTypes": []
         }
       },
       {
-        "type": "jackettio",
-        "instanceId": "fe2",
+        "type": "comet",
+        "instanceId": "811",
         "enabled": true,
         "options": {
-          "name": "Jackettio",
+          "name": "Comet (ru)",
           "timeout": 15000,
           "resources": [
             "stream"
           ],
-          "url": "https://jackettio.stremiofr.com",
+          "includeP2P": false,
+          "removeTrash": true,
           "mediaTypes": []
-        }
-      },
-      {
-        "type": "streamfusion",
-        "instanceId": "759",
-        "enabled": true,
-        "options": {
-          "name": "StreamFusion",
-          "timeout": 15000,
-          "resources": [
-            "stream",
-            "meta",
-            "catalog"
-          ],
-          "url": "https://stream-fusion.stremiofr.com",
-          "torrentProviders": [
-            "publicCacheServer",
-            "zilean"
-          ],
-          "catalogs": [
-            "yggtorrent"
-          ],
-          "torrenting": false,
-          "mediaTypes": [],
-          "streamFusionApiKey": "<template_placeholder>"
         }
       },
       {
@@ -192,6 +168,22 @@
           "certificationLevelsFilter": [],
           "nudityFilter": [],
           "mediaTypes": []
+        }
+      },
+      {
+        "type": "torbox-search",
+        "instanceId": "488",
+        "enabled": true,
+        "options": {
+          "name": "TorBox Search",
+          "timeout": 15000,
+          "sources": [
+            "torrent"
+          ],
+          "mediaTypes": [],
+          "userSearchEngines": false,
+          "onlyShowUserSearchResults": false,
+          "useMultipleInstances": false
         }
       }
     ],
@@ -282,6 +274,7 @@
       "cachedMovies": [],
       "cachedSeries": []
     },
+    "posterService": "rpdb",
     "deduplicator": {
       "enabled": true,
       "excludeAddons": [],
@@ -294,11 +287,6 @@
       "cached": "single_result",
       "uncached": "disabled",
       "p2p": "disabled"
-    },
-    "proxy": {
-      "id": "mediaflow",
-      "proxiedAddons": [],
-      "proxiedServices": []
     },
     "trusted": false,
     "addonName": "AIOStreams 🥖",
@@ -371,7 +359,16 @@
     "ageRangeTypes": [
       "usenet"
     ],
-    "digitalReleaseFilter": false,
+    "digitalReleaseFilter": {
+      "enabled": false,
+      "tolerance": 1,
+      "requestTypes": [
+        "movie",
+        "series",
+        "anime"
+      ],
+      "addons": []
+    },
     "excludeCachedFromAddons": [],
     "excludeCachedFromServices": [],
     "excludeCachedFromStreamTypes": [],
@@ -394,6 +391,11 @@
     "groups": {
       "enabled": false,
       "groupings": []
+    },
+    "proxy": {
+      "id": "mediaflow",
+      "proxiedAddons": [],
+      "proxiedServices": []
     },
     "resultLimits": {
       "global": 30,
@@ -457,30 +459,7 @@
     },
     "precacheNextEpisode": false,
     "alwaysPrecache": false,
-    "catalogModifications": [
-      {
-        "id": "759791b.recently_added_movies",
-        "type": "movie",
-        "name": "YGGtorrent - Récemment Ajoutés",
-        "shuffle": false,
-        "enabled": true,
-        "rpdb": false,
-        "hideable": true,
-        "searchable": false,
-        "addonName": "StreamFusion"
-      },
-      {
-        "id": "759791b.recently_added_tv_shows",
-        "type": "series",
-        "name": "YGGtorrent - Récemment Ajoutées",
-        "shuffle": false,
-        "enabled": true,
-        "rpdb": false,
-        "hideable": true,
-        "searchable": false,
-        "addonName": "StreamFusion"
-      }
-    ],
+    "catalogModifications": [],
     "externalDownloads": false,
     "cacheAndPlay": {
       "streamTypes": []
