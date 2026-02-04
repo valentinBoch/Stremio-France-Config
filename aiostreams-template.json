@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2026-02-02.17-53-49-qkv7814",
+    "id": "aiostreams-🥖-2026-02-04.11-24-36-et3ichp",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
@@ -118,6 +118,30 @@
           "includeP2P": false,
           "removeTrash": true,
           "mediaTypes": []
+        }
+      },
+      {
+        "type": "streamfusion",
+        "instanceId": "d88",
+        "enabled": true,
+        "options": {
+          "name": "StreamFusion",
+          "timeout": 15000,
+          "resources": [
+            "stream",
+            "catalog",
+            "meta"
+          ],
+          "url": "",
+          "torrentProviders": [
+            "zilean"
+          ],
+          "catalogs": [
+            "yggtorrent"
+          ],
+          "torrenting": false,
+          "mediaTypes": [],
+          "streamFusionApiKey": "<template_placeholder>"
         }
       },
       {
@@ -459,7 +483,30 @@
     },
     "precacheNextEpisode": false,
     "alwaysPrecache": false,
-    "catalogModifications": [],
+    "catalogModifications": [
+      {
+        "id": "d88791b.recently_added_movies",
+        "name": "YGGtorrent - Récemment Ajoutés",
+        "type": "movie",
+        "enabled": true,
+        "shuffle": false,
+        "usePosterService": false,
+        "hideable": true,
+        "searchable": false,
+        "addonName": "StreamFusion"
+      },
+      {
+        "id": "d88791b.recently_added_tv_shows",
+        "name": "YGGtorrent - Récemment Ajoutées",
+        "type": "series",
+        "enabled": true,
+        "shuffle": false,
+        "usePosterService": false,
+        "hideable": true,
+        "searchable": false,
+        "addonName": "StreamFusion"
+      }
+    ],
     "externalDownloads": false,
     "cacheAndPlay": {
       "streamTypes": []
