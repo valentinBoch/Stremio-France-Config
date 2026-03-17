@@ -55,9 +55,6 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
 ### 3.3 AIOStreams
 
 - Permet de centraliser vos scrappers (services qui recherchent les fichiers via votre débrideur).
-- Vous aurez besoin d'une clé API StreamFusion :
-  1. Ajoutez le Bot Telegram : [t.me/Stremiofr_bot](https://t.me/Stremiofr_bot)
-  2. Envoyez la commande /generate
 - Pour importer ma configuration JSON :  
   1. Rendez-vous sur [AIOStreams](https://aiostreams.stremio.ru/stremio/configure)  (L'instance la plus stable que j'ai testée **aiostreams.stremio.ru**)
   2. Sélectionnez **Setup Mode → Advanced**  
