@@ -55,15 +55,15 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
 ### 3.3 AIOStreams
 
 - Permet de centraliser vos scrappers (services qui recherchent les fichiers via votre débrideur).
+- Vous aurez besoin d'une clé API StreamFusion : https://streamfusion.stremio-epsilon.ca/api/register
 - Pour importer ma configuration JSON :  
   1. Rendez-vous sur [AIOStreams](https://aiostreams.stremio.ru/stremio/configure)  (L'instance la plus stable que j'ai testée **aiostreams.stremio.ru**)
-  2. Sélectionnez **Setup Mode → Advanced**  
-  3. Cliquez sur **Start Setup**  
-  4. Cliquez sur **Use Template**  
-  5. En bas à droite, utilisez le bouton pour importer le fichier JSON :  
+  2. Scroller vers le bas puis sélectionnez **Setup Mode → Advanced**  
+  3. Cliquez sur **Use Template**  
+  4. Scroller au maximum jusqu'en bas de la page. En bas à droite, utilisez le bouton pour importer le fichier JSON :  
      - `aiostreams-template.json`
-  6. Ensuite vous pouvez enregistrer la configuration. (Attention si vous utilisez **AllDebrid**, il faut accepter la demande de connexion reçue par mail)
-  7. Récupérez l'URL de votre configuration et ajoutez l'addon sur la [version web de Stremio](https://web.stremio.com/#/addons)
+  5. Ensuite vous pouvez enregistrer la configuration. (Attention si vous utilisez **AllDebrid**, il faut accepter la demande de connexion reçue par mail)
+  6. Récupérez l'URL de votre configuration et ajoutez l'addon sur la [version web de Stremio](https://web.stremio.com/#/addons)
   
 ---
 
