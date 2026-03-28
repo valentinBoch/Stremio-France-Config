@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2026-03-27.20-47-19-gpfrhz7",
+    "id": "aiostreams-🥖-2026-03-28.22-58-29-agyrzoy",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
@@ -140,7 +140,7 @@
     "includedStreamExpressions": [],
     "dynamicAddonFetching": {
       "enabled": true,
-      "condition": "totalTimeTaken > 3000"
+      "condition": "totalTimeTaken > 5000"
     },
     "groups": {
       "enabled": false,
@@ -366,6 +366,27 @@
     ],
     "presets": [
       {
+        "type": "streamfusion",
+        "instanceId": "b62",
+        "enabled": true,
+        "options": {
+          "name": "StreamFusion",
+          "timeout": 10000,
+          "resources": [
+            "stream"
+          ],
+          "url": "https://streamfusion.stremio-epsilon.ca",
+          "torrentProviders": [
+            "publicCacheServer",
+            "zilean"
+          ],
+          "catalogs": [],
+          "torrenting": false,
+          "mediaTypes": [],
+          "streamFusionApiKey": "<template_placeholder>"
+        }
+      },
+      {
         "type": "comet",
         "instanceId": "811",
         "enabled": true,
@@ -432,30 +453,7 @@
         }
       }
     ],
-    "catalogModifications": [
-      {
-        "id": "d88791b.recently_added_movies",
-        "type": "movie",
-        "name": "YGGtorrent - Récemment Ajoutés",
-        "shuffle": false,
-        "enabled": true,
-        "usePosterService": false,
-        "hideable": true,
-        "searchable": false,
-        "addonName": "StreamFusion"
-      },
-      {
-        "id": "d88791b.recently_added_tv_shows",
-        "type": "series",
-        "name": "YGGtorrent - Récemment Ajoutées",
-        "shuffle": false,
-        "enabled": true,
-        "usePosterService": false,
-        "hideable": true,
-        "searchable": false,
-        "addonName": "StreamFusion"
-      }
-    ],
+    "catalogModifications": [],
     "externalDownloads": false,
     "cacheAndPlay": {
       "streamTypes": []
