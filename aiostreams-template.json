@@ -391,14 +391,15 @@
         "instanceId": "811",
         "enabled": true,
         "options": {
-          "name": "Comet (ru)",
+          "name": "Comet",
           "timeout": 15000,
           "resources": [
             "stream"
           ],
           "includeP2P": false,
           "removeTrash": true,
-          "mediaTypes": []
+          "mediaTypes": [],
+          "url": "https://comet.feels.legal"
         }
       },
       {
