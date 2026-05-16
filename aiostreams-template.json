@@ -432,26 +432,7 @@
           "mediaTypes": [],
           "usenet": false
         }
-      },
-      {
-        "type": "mediafusion",
-        "instanceId": "132",
-        "enabled": true,
-        "options": {
-          "name": "MediaFusion",
-          "timeout": 15000,
-          "resources": [
-            "stream"
-          ],
-          "useCachedResultsOnly": true,
-          "enableWatchlistCatalogs": false,
-          "downloadViaBrowser": false,
-          "contributorStreams": false,
-          "certificationLevelsFilter": [],
-          "nudityFilter": [],
-          "mediaTypes": [],
-          "url": "https://mediafusionfortheweebs.midnightignite.me"
-        }
+      }
       }
     ],
     "catalogModifications": [],
