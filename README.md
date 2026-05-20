@@ -29,17 +29,19 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
 - Permet de récupérer automatiquement les métadonnées des films et séries.  
 - Configurable ici : [AIOMetadata Config](https://aiometadata.elfhosted.com/configure/)  
 - Vous aurez besoin de comptes et clés API :  
-  - [TMDB](https://www.themoviedb.org/)   
+  - [TMDB](https://www.themoviedb.org/)
+  - [TVDB](https://www.thetvdb.com/)  
 - Pour configurer votre addon :  
   1. Connectez-vous sur AIOMetadata Config  
   2. Dans la partie **Intégration**, saisissez vos clés API TMDB et TheTVDB  
   3. Dans **Général**, choisissez la langue **French (France)**  
   4. Dans **Catalog**, vous pouvez sélectionner vos favoris  
   5. Ou importez directement ma configuration JSON :  
-     - `aiometadata-config-2025-12-02.json`  
+     - `aiometadata-config-2026-05-20.json`  
      - Cliquez sur **Importer JSON** depuis l’onglet **Configuration**
-  6. Sauvegardez la configuration afin d'obtenir l'URL d'installation de l'addon
-  7. Récupérez l'URL de votre configuration et ajoutez l'addon sur la [version web de Stremio](https://web.stremio.com/#/addons)
+  6. Si vous importez mon fichier JSON, vous devrez saisir de nouveau vos clé API
+  7. Sauvegardez la configuration afin d'obtenir l'URL d'installation de l'addon
+  8. Récupérez l'URL de votre configuration et ajoutez l'addon sur la [version web de Stremio](https://web.stremio.com/#/addons)
 
 ---
 
