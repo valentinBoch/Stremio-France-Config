@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "id": "aiostreams-🥖-2026-05-16.22-20-51-m5r6efu",
+    "id": "aiostreams-🥖-2026-07-07.12-17-03-s4tth9p",
     "name": "AIOStreams 🥖",
     "description": "Stremio avec une configuration optimisée pour la France !",
     "source": "external",
@@ -368,27 +368,6 @@
     ],
     "presets": [
       {
-        "type": "streamfusion",
-        "instanceId": "b62",
-        "enabled": true,
-        "options": {
-          "name": "StreamFusion",
-          "timeout": 10000,
-          "resources": [
-            "stream"
-          ],
-          "url": "https://streamfusion.stremio-epsilon.ca",
-          "torrentProviders": [
-            "publicCacheServer",
-            "zilean"
-          ],
-          "catalogs": [],
-          "torrenting": false,
-          "mediaTypes": [],
-          "streamFusionApiKey": "<template_placeholder>"
-        }
-      },
-      {
         "type": "comet",
         "instanceId": "811",
         "enabled": true,
@@ -402,6 +381,22 @@
           "removeTrash": true,
           "mediaTypes": [],
           "url": "https://comet.feels.legal"
+        }
+      },
+      {
+        "type": "meteor",
+        "instanceId": "77b",
+        "enabled": true,
+        "options": {
+          "name": "Meteor",
+          "timeout": 10000,
+          "resources": [
+            "stream"
+          ],
+          "mediaTypes": [],
+          "includeP2P": false,
+          "removeTrash": true,
+          "useMultipleInstances": false
         }
       },
       {
