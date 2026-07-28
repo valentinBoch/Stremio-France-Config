@@ -30,7 +30,6 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
 - Configurable ici : [AIOMetadata Config](https://aiometadata.elfhosted.com/configure/)  
 - Vous aurez besoin de comptes et clés API :  
   - [TMDB](https://www.themoviedb.org/)
-  - [TVDB](https://www.thetvdb.com/)  
 - Pour configurer votre addon :  
   1. Connectez-vous sur AIOMetadata Config  
   2. Dans la partie **Intégration**, saisissez vos clés API TMDB et TheTVDB  
@@ -45,7 +44,7 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
 
 ---
 
-### 3.2 Top Streaming
+### 3.2 Top Streaming (Optionnel)
 
 - Permet d’accéder au Top 10 des contenus par plateforme (Netflix, Amazon Prime…) et par pays.  
 - Configurable ici : [Top Streaming Config](https://top-streaming.stream/configure)
@@ -75,7 +74,7 @@ Une fois tous les addons installés, vous devez les mettre dans le bon ordre :
 
 **Ordre recommandé :**  
 1. AIOMetadata | ElfHosted  
-2. Top Streaming  
+2. Top Streaming (**Optionnel**) 
 3. AIOStreams  
 4. Cinemata  
 5. Les autres addons dans l’ordre que vous voulez  
