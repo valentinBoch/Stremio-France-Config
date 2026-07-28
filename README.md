@@ -52,18 +52,16 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
 
 ---
 
-### 3.3 AIOStreams
+### 3.3 Lumio
 
-- Permet de centraliser vos scrappers (services qui recherchent les fichiers via votre débrideur).
-- Vous aurez besoin d'une clé API StreamFusion : [https://streamfusion.stremio-epsilon.ca/api/register](https://streamfusion.stremio-epsilon.ca/register)
-- Pour importer ma configuration JSON :  
-  1. Rendez-vous sur [AIOStreams](https://aiostreams.stremio.ru/stremio/configure)  (L'instance la plus stable que j'ai testée **aiostreams.stremio.ru**)
-  2. Scroller vers le bas puis sélectionnez **Setup Mode → Advanced**  
-  3. Cliquez sur **Use Template**  
-  4. Scroller au maximum jusqu'en bas de la page. En bas à droite, utilisez le bouton pour importer le fichier JSON :  
-     - `aiostreams-template.json`
-  5. Ensuite vous pouvez enregistrer la configuration. (Attention si vous utilisez **AllDebrid**, il faut accepter la demande de connexion reçue par mail)
-  6. Récupérez l'URL de votre configuration et ajoutez l'addon sur la [version web de Stremio](https://web.stremio.com/#/addons)
+- Permet d'obtenir les meilleurs résultats de recherche pour du contenu français
+
+1. Rendez-vous sur [Lumio](https://mylumio.tv/configure).
+2. Choisissez un nom de profil, par exemple « Salon ».
+3. Configurez votre débrideur dans Lumio.
+4. Choisissez le style de visionnage souhaité pour les résultats qui s'afficheront dans Stremio.
+5. Cliquez sur « Activer dans Stremio » afin d'ajouter l'addon à Stremio.
+6. En théorie, l'addon s'ajoute automatiquement à Stremio. Si ce n'est pas le cas, vous pouvez copier l'URL à l'aide du bouton situé en bas à droite sur le site de Lumio.
   
 ---
 
@@ -75,7 +73,7 @@ Une fois tous les addons installés, vous devez les mettre dans le bon ordre :
 **Ordre recommandé :**  
 1. AIOMetadata | ElfHosted  
 2. Top Streaming (**Optionnel**) 
-3. AIOStreams  
+3. Lumio  
 4. Cinemata  
 5. Les autres addons dans l’ordre que vous voulez  
 
