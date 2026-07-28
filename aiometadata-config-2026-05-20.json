@@ -1,6 +1,6 @@
 {
   "version": "2.8.0",
-  "exportedAt": "2026-07-28T12:19:55.000Z",
+  "exportedAt": "2026-07-28T12:44:18.216Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -17,7 +17,7 @@
       "enabled": true,
       "providers": {
         "movie": "tmdb.search",
-        "series": "tvdb.search",
+        "series": "tmdb.search",
         "anime_movie": "mal.search.movie",
         "anime_series": "mal.search.series"
       },
@@ -1026,6 +1026,7 @@
       }
     ],
     "language": "fr-FR",
+    "timezone": "Europe/Paris",
     "ageRating": "None",
     "castCount": 10,
     "providers": {
@@ -1038,7 +1039,7 @@
     "sessionId": "256a4faad5f24a5a83a071f2065c09fa8461e658",
     "streaming": [],
     "blurThumbs": false,
-    "configHash": "6da37bcb1f51ba0e",
+    "configHash": "3d30f76e8dce2126",
     "showPrefix": false,
     "artProviders": {
       "anime": {
@@ -1059,8 +1060,8 @@
       "englishArtOnly": false
     },
     "includeAdult": false,
-    "lastModified": 1785240541597,
-    "configVersion": 1785240541598,
+    "lastModified": 1785241187068,
+    "configVersion": 1785241187069,
     "searchEnabled": true,
     "tvdbSeasonType": "default",
     "displayAgeRating": false,
@@ -1068,8 +1069,7 @@
     "enableRPDBForLibrary": true,
     "mdblistWatchTracking": false,
     "hideUnreleasedDigital": false,
-    "showMetaProviderAttribution": false,
-    "timezone": "Europe/Paris"
+    "showMetaProviderAttribution": false
   },
   "metadata": {
     "apiKeysExcluded": true,
