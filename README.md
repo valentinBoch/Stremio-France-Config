@@ -61,7 +61,7 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
 3. Configurez votre débrideur dans Lumio.
 4. Choisissez le style de visionnage souhaité pour les résultats qui s'afficheront dans Stremio.
 5. Cliquez sur « Activer dans Stremio » afin d'ajouter l'addon à Stremio.
-6. En théorie, l'addon s'ajoute automatiquement à Stremio. Si ce n'est pas le cas, vous pouvez copier l'URL à l'aide du bouton situé en bas à droite sur le site de Lumio.
+6. En théorie, l'addon s'ajoute automatiquement à Stremio. Si ce n'est pas le cas, copiez l'URL à l'aide du bouton situé en bas à droite sur le site de Lumio, puis ajoutez-la manuellement dans la liste des addons de Stremio depuis https://web.stremio.com/#/addons
   
 ---
 
