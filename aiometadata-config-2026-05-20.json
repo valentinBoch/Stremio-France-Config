@@ -1,6 +1,6 @@
 {
-  "version": "2.3.0",
-  "exportedAt": "2026-05-20T10:00:58.609Z",
+  "version": "2.8.0",
+  "exportedAt": "2026-07-28T12:19:55.000Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -55,8 +55,8 @@
     },
     "catalogs": [
       {
-        "id": "tmdb.top",
-        "name": "TMDB Popular",
+        "id": "tmdb.trending",
+        "name": "TMDB Trending",
         "sort": "default",
         "type": "movie",
         "order": "asc",
@@ -65,8 +65,8 @@
         "showInHome": true
       },
       {
-        "id": "tmdb.top",
-        "name": "TMDB Popular",
+        "id": "tmdb.trending",
+        "name": "TMDB Trending",
         "sort": "default",
         "type": "series",
         "order": "asc",
@@ -75,8 +75,8 @@
         "showInHome": true
       },
       {
-        "id": "tmdb.trending",
-        "name": "TMDB Trending",
+        "id": "tmdb.top",
+        "name": "TMDB Popular",
         "sort": "default",
         "type": "movie",
         "order": "asc",
@@ -85,8 +85,8 @@
         "showInHome": true
       },
       {
-        "id": "tmdb.trending",
-        "name": "TMDB Trending",
+        "id": "tmdb.top",
+        "name": "TMDB Popular",
         "sort": "default",
         "type": "series",
         "order": "asc",
@@ -171,7 +171,7 @@
         "type": "movie",
         "order": "asc",
         "source": "tvdb",
-        "enabled": true,
+        "enabled": false,
         "showInHome": false
       },
       {
@@ -181,7 +181,7 @@
         "type": "series",
         "order": "asc",
         "source": "tvdb",
-        "enabled": true,
+        "enabled": false,
         "showInHome": false
       },
       {
@@ -191,7 +191,7 @@
         "type": "movie",
         "order": "asc",
         "source": "tvdb",
-        "enabled": true,
+        "enabled": false,
         "showInHome": false
       },
       {
@@ -201,7 +201,7 @@
         "type": "series",
         "order": "asc",
         "source": "tvdb",
-        "enabled": true,
+        "enabled": false,
         "showInHome": false
       },
       {
@@ -211,7 +211,7 @@
         "type": "movie",
         "order": "asc",
         "source": "tvdb",
-        "enabled": true,
+        "enabled": false,
         "showInHome": false
       },
       {
@@ -1038,6 +1038,7 @@
     "sessionId": "256a4faad5f24a5a83a071f2065c09fa8461e658",
     "streaming": [],
     "blurThumbs": false,
+    "configHash": "6da37bcb1f51ba0e",
     "showPrefix": false,
     "artProviders": {
       "anime": {
@@ -1058,20 +1059,21 @@
       "englishArtOnly": false
     },
     "includeAdult": false,
-    "lastModified": 1770201770011,
-    "configVersion": 1770201770012,
+    "lastModified": 1785240541597,
+    "configVersion": 1785240541598,
     "searchEnabled": true,
     "tvdbSeasonType": "default",
     "displayAgeRating": false,
+    "catalogSetupComplete": true,
     "enableRPDBForLibrary": true,
     "mdblistWatchTracking": false,
     "hideUnreleasedDigital": false,
     "showMetaProviderAttribution": false,
-    "catalogSetupComplete": true
+    "timezone": "Europe/Paris"
   },
   "metadata": {
     "apiKeysExcluded": true,
     "totalCatalogs": 97,
-    "enabledCatalogs": 11
+    "enabledCatalogs": 6
   }
 }
