@@ -32,7 +32,7 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
   - [TMDB](https://www.themoviedb.org/)
 - Pour configurer votre addon :  
   1. Connectez-vous sur AIOMetadata Config  
-  2. Dans la partie **Intégration**, saisissez vos clés API TMDB et TheTVDB  
+  2. Dans la partie **Intégration**, saisissez la clé API TMDB
   3. Dans **Général**, choisissez la langue **French (France)**  
   4. Dans **Catalog**, vous pouvez sélectionner vos favoris  
   5. Ou importez directement ma configuration JSON :  
