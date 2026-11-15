@@ -66,9 +66,6 @@ TOP Streaming ajoute les classements de Netflix, Prime Video et d’autres plate
 3. Suivez les indications de Lumio pour connecter le service. Choisissez la présentation des résultats, puis cliquez sur **Activer dans Stremio** et confirmez l’installation.
 4. Si Stremio ne s’ouvre pas, copiez le lien d’installation depuis Lumio. Dans [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Add addon**, collez le lien et confirmez avec **Install**.
 
-> [!IMPORTANT]
-> Gardez vos clés API et vos liens d’installation privés. Masquez-les si vous partagez une capture d’écran.
-
 ## 6. Ranger les extensions
 
 Ouvrez [Stremio Addon Manager](https://stremio-addon-manager.vercel.app/), un outil tiers, puis chargez la liste des extensions de votre compte. Faites-les glisser dans cet ordre, enregistrez et actualisez Stremio.
