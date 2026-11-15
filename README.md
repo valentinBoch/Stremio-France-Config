@@ -23,6 +23,8 @@ Un débrideur est le service que vous associerez à Lumio pour obtenir des liens
 
 Le lien TorBox inclut mon parrainage. [Comment fonctionne le parrainage TorBox](https://support.torbox.app/en/articles/9875657-how-does-the-torbox-referral-system-work)
 
+**Code de parrainage à copier** · `3f98b0bb-0ac6-4108-a932-54d1853f1f4b`
+
 ### Ajouter une extension avec son lien
 
 Sur [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur le bouton vert **+ Add addon**, collez le lien d’installation fourni par l’extension, puis confirmez avec **Install**. Pour vérifier qu’elle a bien été ajoutée, choisissez **Installed** dans le filtre en haut à gauche.
