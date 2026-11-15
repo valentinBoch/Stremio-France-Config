@@ -31,7 +31,7 @@ AIOMetadata fournit les fiches, affiches et catalogues de films et de séries. I
 
 1. Créez un compte [TMDB](https://www.themoviedb.org/). Rendez-vous dans [Paramètres → API](https://www.themoviedb.org/settings/api), faites la demande de clé et copiez la valeur **API Key** (v3).
 2. Ouvrez le [fichier de configuration France](aiometadata-config-2026-05-20.json) sur GitHub. Cliquez sur l’icône **Copy raw file**, près de **Raw**, pour copier son contenu.
-3. Ouvrez [AIOMetadata → General](https://aiometadata.elfhosted.com/configure/#general). Cliquez sur **Import Setup**, collez le contenu copié depuis GitHub, puis choisissez **Replace** (*Remplacer*). Si l’interface demande un fichier, téléchargez le JSON depuis GitHub et sélectionnez-le.
+3. Ouvrez [AIOMetadata → Catalogs](https://aiometadata.elfhosted.com/configure/#catalogs). Cliquez sur **Import Setup**, collez le contenu copié depuis GitHub, puis choisissez **Replace** (*Remplacer*). Si l’interface demande un fichier, téléchargez le JSON depuis GitHub et sélectionnez-le.
 4. Une fois l’import terminé, collez votre clé TMDB dans **Integrations → TMDB**. Dans **General**, vérifiez que la langue est **French (France)**.
 5. Cliquez sur **Save Configuration**, puis copiez le lien d’installation. Ouvrez [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Add addon**, collez le lien et confirmez avec **Install**.
 
