@@ -21,6 +21,8 @@ Un débrideur est le service que vous associerez à Lumio pour obtenir des liens
 | [TorBox](https://www.torbox.app/subscription?referral=3f98b0bb-0ac6-4108-a932-54d1853f1f4b) | **Oui.** Un même abonnement peut être utilisé simultanément sur plusieurs connexions Internet, donc à plusieurs adresses IP. TorBox applique une [règle d’usage raisonnable](https://support.torbox.app/en/articles/9836406-can-i-use-my-account-with-many-different-ip-s). |
 | [AllDebrid](https://alldebrid.fr/) | **Prévoyez un abonnement distinct par foyer.** Le compte est réservé à [un usage personnel](https://alldebrid.fr/tos/). Pour un usage résidentiel, comptez [une adresse IP publique à la fois](https://guides.viren070.me/stremio/faq#how-does-the-one-ip-address-rule-work). |
 
+**Quel abonnement TorBox choisir ?** Le forfait **Essential** suffit pour utiliser TorBox avec Stremio et Lumio comme dans ce guide.
+
 Avec mon lien de parrainage, vous recevez **7 jours offerts par mois acheté** lors de votre premier achat. Je reçois aussi un bonus.
 
 | Premier abonnement | Jours offerts | Durée totale |
