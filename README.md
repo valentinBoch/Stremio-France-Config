@@ -29,7 +29,7 @@ Le lien TorBox inclut mon parrainage. [Comment fonctionne le parrainage TorBox](
 
 AIOMetadata fournit les fiches, affiches et catalogues de films et de séries. Il utilise une clé API TMDB, un code qui lui donne accès à ces informations.
 
-1. Ouvrez [AIOMetadata → Configuration](https://aiometadata.elfhosted.com/configure/#configuration). Dans **Import Configuration**, collez cette adresse dans **Configuration URL**, puis cliquez sur **Fetch**.
+1. Ouvrez [AIOMetadata → Configuration](https://aiometadata.elfhosted.com/configure/#configuration). En bas à droite de la page, repérez le bloc **Import Configuration**. Collez cette adresse dans **Configuration URL**, puis cliquez sur **Fetch**.
 
    ```text
    https://raw.githubusercontent.com/valentinBoch/Stremio-France-Config/refs/heads/main/aiometadata-config-2026-11-15.json
