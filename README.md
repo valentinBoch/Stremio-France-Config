@@ -25,12 +25,6 @@ Le lien TorBox inclut mon parrainage. [Comment fonctionne le parrainage TorBox](
 
 **Code de parrainage TorBox à copier** · `3f98b0bb-0ac6-4108-a932-54d1853f1f4b`
 
-### Ajouter une extension avec son lien
-
-Sur [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur le bouton vert **+ Add addon**, collez le lien d’installation fourni par l’extension, puis confirmez avec **Install**. Pour vérifier qu’elle a bien été ajoutée, choisissez **Installed** dans le filtre en haut à gauche.
-
-[![Stremio Web, page des extensions avec le filtre Installed et le bouton vert Add addon](https://www.adslzone.net/app/uploads-adslzone.net/2026/03/addon-complemento-cuerpo-112-az.jpg)](https://www.adslzone.net/noticias/streaming-tv/que-es-stremio-funciones-legalidad/)
-
 ## 3. Mettre les fiches en français avec AIOMetadata
 
 AIOMetadata fournit les fiches, affiches et catalogues de films et de séries. Il utilise une clé API TMDB, un code qui lui donne accès à ces informations.
@@ -41,10 +35,12 @@ AIOMetadata fournit les fiches, affiches et catalogues de films et de séries. I
 4. Une fois l’import terminé, collez votre clé TMDB dans **Integrations → TMDB**. Dans **General**, vérifiez que la langue est **French (France)**.
 5. Cliquez sur **Save Configuration**, puis copiez le lien d’installation. Ouvrez [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Add addon**, collez le lien et confirmez avec **Install**.
 
+[![Stremio Web, page des extensions avec le filtre Installed et le bouton vert Add addon](https://www.adslzone.net/app/uploads-adslzone.net/2026/03/addon-complemento-cuerpo-112-az.jpg)](https://www.adslzone.net/noticias/streaming-tv/que-es-stremio-funciones-legalidad/)
+
 > [!TIP]
 > Si vous aviez déjà configuré AIOMetadata, exportez vos réglages avant de choisir **Replace**. Ce bouton remplace votre configuration actuelle.
 
-**À vérifier** · AIOMetadata apparaît dans **Installed**. Ouvrez une fiche depuis un de ses catalogues et vérifiez que la description s’affiche en français quand une traduction est disponible.
+**À vérifier** · Dans le filtre en haut à gauche, choisissez **Installed**. AIOMetadata doit apparaître dans la liste. Ouvrez une fiche depuis un de ses catalogues et vérifiez que la description s’affiche en français quand une traduction est disponible.
 
 ## 4. Ajouter TOP Streaming (facultatif)
 
