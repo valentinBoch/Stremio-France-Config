@@ -14,7 +14,7 @@ Ce guide vous aide à installer Stremio, à afficher des fiches en français et 
 
 ## 2. Créer un compte TorBox ou AllDebrid
 
-Un débrideur est le service que vous associerez à Lumio pour obtenir des liens de lecture. **Un seul compte suffit.** Avant de prendre un abonnement, vérifiez que le service choisi est proposé dans [Lumio](https://mylumio.tv/configure).
+Un débrideur est le service que vous associerez à Lumio pour obtenir des liens de lecture. **Un seul compte suffit.**
 
 | Service | Peut-on l’utiliser dans plusieurs foyers en même temps ? |
 | --- | --- |
