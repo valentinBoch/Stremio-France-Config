@@ -36,18 +36,18 @@ AIOMetadata fournit les fiches, affiches et catalogues de films et de séries. I
    ![Dans l’onglet Catalogs, le bouton Import Setup est tout à droite, juste après Share Setup. Une flèche violette le signale.](docs/aiometadata-import-setup.jpg)
 
 4. Une fois l’import terminé, collez votre clé TMDB dans **Integrations → TMDB**. Dans **General**, vérifiez que la langue est **French (France)**.
-5. Cliquez sur **Save Configuration**, puis copiez le lien d’installation. Ouvrez [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Add addon**, collez le lien et confirmez avec **Install**.
+5. Cliquez sur **Save Configuration**, puis copiez le lien d’installation. Ouvrez [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Ajouter une extension**, collez le lien et confirmez avec **Installer**.
 
-[![Stremio Web, page des extensions avec le filtre Installed et le bouton vert Add addon](https://www.adslzone.net/app/uploads-adslzone.net/2026/03/addon-complemento-cuerpo-112-az.jpg)](https://www.adslzone.net/noticias/streaming-tv/que-es-stremio-funciones-legalidad/)
+![Dans Stremio Web, une flèche violette pointe vers le bouton vert Ajouter une extension. Le filtre Installées et la carte AIOMetadata sont visibles.](docs/stremio-extensions-fr.jpg)
 
-**À vérifier** · Dans le filtre en haut à gauche, choisissez **Installed**. AIOMetadata doit apparaître dans la liste. Ouvrez une fiche depuis un de ses catalogues et vérifiez que la description s’affiche en français quand une traduction est disponible.
+**À vérifier** · Dans le filtre en haut à gauche, choisissez **Installées**. AIOMetadata doit apparaître dans la liste. Ouvrez une fiche depuis un de ses catalogues et vérifiez que la description s’affiche en français quand une traduction est disponible.
 
 ## 4. Ajouter TOP Streaming (facultatif)
 
 TOP Streaming ajoute les classements de Netflix, Prime Video et d’autres plateformes à l’accueil.
 
 1. Ouvrez [TOP Streaming](https://top-streaming.stream/), cliquez sur le bouton de configuration, puis choisissez **France** et les plateformes qui vous intéressent.
-2. Copiez le lien d’installation. Dans [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Add addon**, collez le lien et confirmez avec **Install**.
+2. Copiez le lien d’installation. Dans [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Ajouter une extension**, collez le lien et confirmez avec **Installer**.
 
 ## 5. Configurer Lumio
 
@@ -60,7 +60,7 @@ TOP Streaming ajoute les classements de Netflix, Prime Video et d’autres plate
    | AllDebrid | Dans [Mes clés API](https://alldebrid.com/apikeys/), créez une clé nommée **Lumio**, puis copiez-la. |
 
 3. Suivez les indications de Lumio pour connecter le service. Choisissez la présentation des résultats, puis cliquez sur **Activer dans Stremio** et confirmez l’installation.
-4. Si Stremio ne s’ouvre pas, copiez le lien d’installation depuis Lumio. Dans [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Add addon**, collez le lien et confirmez avec **Install**.
+4. Si Stremio ne s’ouvre pas, copiez le lien d’installation depuis Lumio. Dans [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Ajouter une extension**, collez le lien et confirmez avec **Installer**.
 
 ## 6. Ranger les extensions
 
@@ -78,7 +78,7 @@ Ouvrez un titre que vous avez le droit de visionner et cherchez **Lumio** dans l
 
 | Problème | Quoi faire |
 | --- | --- |
-| Le lien d’installation ne s’ouvre pas | Copiez le lien fourni par l’extension, puis utilisez le bouton **+ Add addon** dans [Stremio Web → Extensions](https://web.stremio.com/#/addons). |
+| Le lien d’installation ne s’ouvre pas | Copiez le lien fourni par l’extension, puis utilisez le bouton **+ Ajouter une extension** dans [Stremio Web → Extensions](https://web.stremio.com/#/addons). |
 | Les fiches restent en anglais | Ouvrez une fiche depuis un catalogue **AIOMetadata**. Vérifiez **French (France)** et la clé TMDB dans AIOMetadata, puis enregistrez. |
 | Lumio ne propose aucune source | Vérifiez la connexion à votre débrideur, puis essayez un autre titre auquel vous avez accès. |
 | Les extensions manquent sur la TV | Vérifiez que vous utilisez le même compte Stremio, puis fermez et rouvrez l’application. |
