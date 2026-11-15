@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="270" viewBox="0 0 960 270" role="img" aria-labelledby="title">
+  <title id="title">Stremio en français — guide de démarrage</title>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#141026"/>
+      <stop offset="1" stop-color="#2d2051"/>
+    </linearGradient>
+    <linearGradient id="screen" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#ae8aff"/>
+      <stop offset="1" stop-color="#6d41d5"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="270" rx="24" fill="url(#background)"/>
+  <path d="M690 270 960 0v270Z" fill="#fff" opacity=".035"/>
+  <rect x="53" y="51" width="36" height="4" rx="2" fill="#8b70ff"/>
+  <rect x="91" y="51" width="36" height="4" rx="2" fill="#f4ecff"/>
+  <rect x="129" y="51" width="36" height="4" rx="2" fill="#ff8596"/>
+  <text x="53" y="126" fill="#f8f5ff" font-size="53" font-weight="700" font-family="system-ui, sans-serif">Stremio en français</text>
+  <text x="55" y="177" fill="#ded0ff" font-size="24" font-family="system-ui, sans-serif">Du premier compte à la première lecture</text>
+  <g transform="translate(710 60)">
+    <rect x="13" y="16" width="178" height="112" rx="18" fill="#100b22" opacity=".45"/>
+    <rect width="178" height="112" rx="18" fill="url(#screen)"/>
+    <rect x="9" y="9" width="160" height="94" rx="12" fill="#221641"/>
+    <path d="M75 33a4 4 0 0 0-6 3.5v39a4 4 0 0 0 6 3.5l36-19.5a4 4 0 0 0 0-7Z" fill="#eee3ff"/>
+    <path d="M89 112v24m-33 0h66" stroke="#c5aaff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
