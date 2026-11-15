@@ -27,7 +27,7 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
 ### 3.1 AIOMetadata
 
 - Permet de récupérer automatiquement les métadonnées des films et séries.  
-- Configurable ici : [AIOMetadata Config](https://aiometadata.elfhosted.com/configure/)  
+- Configurable ici : [AIOMetadata Config](https://aiometadata.elfhosted.com/configure/#general)  
 - Vous aurez besoin de comptes et clés API :  
   - [TMDB](https://www.themoviedb.org/)
 - Pour configurer votre addon :  
