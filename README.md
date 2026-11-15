@@ -4,7 +4,7 @@
 
 Ce guide vous aide à installer Stremio, à afficher des fiches en français et à configurer vos extensions. Faites la configuration dans un navigateur sur ordinateur, puis utilisez le même compte Stremio sur votre téléphone ou votre TV.
 
-**Sommaire** · [Compte Stremio](#1-créer-un-compte-stremio) · [Compte débrideur](#2-créer-un-compte-torbox-ou-alldebrid) · [AIOMetadata](#3-mettre-les-fiches-en-français-avec-aiometadata) · [TOP Streaming](#4-ajouter-top-streaming-facultatif) · [Lumio](#5-configurer-lumio) · [Ordre des extensions](#6-ranger-les-extensions-facultatif) · [Dépannage](#7-tester-et-dépanner)
+**Sommaire** · [Compte Stremio](#1-créer-un-compte-stremio) · [Compte débrideur](#2-créer-un-compte-torbox-ou-alldebrid) · [AIOMetadata](#3-mettre-les-fiches-en-français-avec-aiometadata) · [TOP Streaming](#4-ajouter-top-streaming-facultatif) · [Lumio](#5-configurer-lumio) · [Ordre des extensions](#6-ranger-les-extensions) · [Dépannage](#7-tester-et-dépanner)
 
 ## 1. Créer un compte Stremio
 
@@ -18,25 +18,16 @@ Un débrideur est le service que vous associerez à Lumio pour obtenir des liens
 
 | Service | Peut-on l’utiliser dans plusieurs foyers en même temps ? |
 | --- | --- |
-| [TorBox](https://torbox.app/) | **Oui.** Un même abonnement peut être utilisé simultanément sur plusieurs connexions Internet, donc à plusieurs adresses IP. TorBox applique une [règle d’usage raisonnable](https://support.torbox.app/en/articles/9836406-can-i-use-my-account-with-many-different-ip-s). |
+| [TorBox](https://www.torbox.app/subscription?referral=3f98b0bb-0ac6-4108-a932-54d1853f1f4b) | **Oui.** Un même abonnement peut être utilisé simultanément sur plusieurs connexions Internet, donc à plusieurs adresses IP. TorBox applique une [règle d’usage raisonnable](https://support.torbox.app/en/articles/9836406-can-i-use-my-account-with-many-different-ip-s). |
 | [AllDebrid](https://alldebrid.fr/) | **Prévoyez un abonnement distinct par foyer.** Le compte est réservé à [un usage personnel](https://alldebrid.fr/tos/). Pour un usage résidentiel, comptez [une adresse IP publique à la fois](https://guides.viren070.me/stremio/faq#how-does-the-one-ip-address-rule-work). |
 
-**Parrainage TorBox facultatif** · Saisissez `3f98b0bb-0ac6-4108-a932-54d1853f1f4b` dans la rubrique **Referrals** au bas de la page d’abonnement avant votre premier achat. [Comment fonctionne le parrainage TorBox](https://support.torbox.app/en/articles/9875657-how-does-the-torbox-referral-system-work)
+Le lien TorBox inclut mon parrainage. [Comment fonctionne le parrainage TorBox](https://support.torbox.app/en/articles/9875657-how-does-the-torbox-referral-system-work)
 
 ### Ajouter une extension avec son lien
 
 Sur [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur le bouton vert **+ Add addon**, collez le lien d’installation fourni par l’extension, puis confirmez avec **Install**. Pour vérifier qu’elle a bien été ajoutée, choisissez **Installed** dans le filtre en haut à gauche.
 
 [![Stremio Web, page des extensions avec le filtre Installed et le bouton vert Add addon](https://www.adslzone.net/app/uploads-adslzone.net/2026/03/addon-complemento-cuerpo-112-az.jpg)](https://www.adslzone.net/noticias/streaming-tv/que-es-stremio-funciones-legalidad/)
-
-<details>
-<summary>Voir l’interface de Stremio sur Android</summary>
-
-<img src="https://blog.stremio.com/wp-content/uploads/2025/10/Screenshot_20251029_140929_Stremio-1-473x1024.jpg" alt="Interface de l’application Stremio Android Mobile v2" width="235">
-
-*Capture de l’[application Android Mobile v2](https://blog.stremio.com/stremio-tech-update-56-new-android-mobile-and-android-tv-apps-released/). Pour suivre le guide sur un téléphone, ouvrez les [extensions de Stremio Web](https://web.stremio.com/#/addons) dans votre navigateur.*
-
-</details>
 
 ## 3. Mettre les fiches en français avec AIOMetadata
 
@@ -76,7 +67,7 @@ TOP Streaming ajoute les classements de Netflix, Prime Video et d’autres plate
 > [!IMPORTANT]
 > Gardez vos clés API et vos liens d’installation privés. Masquez-les si vous partagez une capture d’écran.
 
-## 6. Ranger les extensions (facultatif)
+## 6. Ranger les extensions
 
 Ouvrez [Stremio Addon Manager](https://stremio-addon-manager.vercel.app/), un outil tiers, puis chargez la liste des extensions de votre compte. Faites-les glisser dans cet ordre, enregistrez et actualisez Stremio.
 
