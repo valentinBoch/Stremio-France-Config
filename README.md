@@ -17,6 +17,7 @@ Pour profiter pleinement des contenus, un débrideur est nécessaire. J'utilise 
 - [S’abonner à AllDebrid](https://alldebrid.fr/)
 
 Torbox ou AllDebrid vous permettront d’accéder aux fichiers en cache.
+L'avantage de Torbox est que vous pouvez utiliser le même compte Torbox si v
 
 ---
 
@@ -36,9 +37,9 @@ Voici la liste des addons à installer **dans cet ordre**, pour une expérience 
   3. Dans **Général**, choisissez la langue **French (France)**  
   4. Dans **Catalog**, vous pouvez sélectionner vos favoris  
   5. Ou importez directement ma configuration JSON :  
-     - `aiometadata-config-2026-05-20.json`  
-     - Cliquez sur **Importer JSON** depuis l’onglet **Configuration**
-  6. Si vous importez mon fichier JSON, vous devrez saisir de nouveau vos clé API
+     - Allez sur la page [aiometadata-config-2026-05-20.json(https://github.com/valentinBoch/Stremio-France-Config/blob/main/aiometadata-config-2026-05-20.json) afin de copier le json avec le bouton "copy raw file"
+     - Cliquez sur bouton **Import Setup** et coller ce que vous avez copier précédent puis choisir "Merge"
+  6. Si vous importez mon fichier JSON, vous devrez saisir de nouveau votre clé API TMDB dans **Intégration**
   7. Sauvegardez la configuration afin d'obtenir l'URL d'installation de l'addon
   8. Récupérez l'URL de votre configuration et ajoutez l'addon sur la [version web de Stremio](https://web.stremio.com/#/addons)
 
