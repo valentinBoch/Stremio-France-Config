@@ -21,7 +21,14 @@ Un débrideur est le service que vous associerez à Lumio pour obtenir des liens
 | [TorBox](https://www.torbox.app/subscription?referral=3f98b0bb-0ac6-4108-a932-54d1853f1f4b) | **Oui.** Un même abonnement peut être utilisé simultanément sur plusieurs connexions Internet, donc à plusieurs adresses IP. TorBox applique une [règle d’usage raisonnable](https://support.torbox.app/en/articles/9836406-can-i-use-my-account-with-many-different-ip-s). |
 | [AllDebrid](https://alldebrid.fr/) | **Prévoyez un abonnement distinct par foyer.** Le compte est réservé à [un usage personnel](https://alldebrid.fr/tos/). Pour un usage résidentiel, comptez [une adresse IP publique à la fois](https://guides.viren070.me/stremio/faq#how-does-the-one-ip-address-rule-work). |
 
-Le lien TorBox inclut mon parrainage. [Comment fonctionne le parrainage TorBox](https://support.torbox.app/en/articles/9875657-how-does-the-torbox-referral-system-work)
+Avec mon lien de parrainage, vous recevez **7 jours offerts par mois acheté** lors de votre premier achat. Je reçois aussi un bonus.
+
+| Premier abonnement | Jours offerts | Durée totale |
+| --- | --- | --- |
+| 1 mois | 7 jours | 1 mois + 7 jours |
+| **1 an** | **84 jours** | **12 mois + 84 jours**, soit environ **14 mois et 3 semaines** |
+
+**Le bonus s’applique au premier achat uniquement.** Si vous commencez par un mois puis passez à un an, vous aurez les 7 jours offerts du premier mois. Pour obtenir les 84 jours offerts, choisissez l’abonnement annuel dès le départ. [Conditions du parrainage TorBox](https://support.torbox.app/en/articles/9875657-how-does-the-torbox-referral-system-work)
 
 **Code de parrainage TorBox à copier** · `3f98b0bb-0ac6-4108-a932-54d1853f1f4b`
 
