@@ -29,14 +29,16 @@ Le lien TorBox inclut mon parrainage. [Comment fonctionne le parrainage TorBox](
 
 AIOMetadata fournit les fiches, affiches et catalogues de films et de séries. Il utilise une clé API TMDB, un code qui lui donne accès à ces informations.
 
-1. Créez un compte [TMDB](https://www.themoviedb.org/). Rendez-vous dans [Paramètres → API](https://www.themoviedb.org/settings/api), faites la demande de clé et copiez la valeur **API Key** (v3).
-2. Ouvrez le [fichier de configuration France](aiometadata-config-2026-05-20.json) sur GitHub. Cliquez sur l’icône **Copy raw file**, près de **Raw**, pour copier son contenu.
-3. Ouvrez [AIOMetadata → Catalogs](https://aiometadata.elfhosted.com/configure/#catalogs). Cliquez sur **Import Setup**, collez le contenu copié depuis GitHub, puis choisissez **Replace** (*Remplacer*). Si l’interface demande un fichier, téléchargez le JSON depuis GitHub et sélectionnez-le.
+1. Ouvrez [AIOMetadata → Configuration](https://aiometadata.elfhosted.com/configure/#configuration). Dans **Import Configuration**, collez cette adresse dans **Configuration URL**, puis cliquez sur **Fetch**.
 
-   ![Dans l’onglet Catalogs, le bouton Import Setup est tout à droite, juste après Share Setup. Une flèche violette le signale.](docs/aiometadata-import-setup.jpg)
+   ```text
+   https://raw.githubusercontent.com/valentinBoch/Stremio-France-Config/refs/heads/main/aiometadata-config-2026-11-15.json
+   ```
 
-4. Une fois l’import terminé, collez votre clé TMDB dans **Integrations → TMDB**. Dans **General**, vérifiez que la langue est **French (France)**.
-5. Cliquez sur **Save Configuration**, puis copiez le lien d’installation. Ouvrez [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Ajouter une extension**, collez le lien et confirmez avec **Installer**.
+   Si **Fetch** affiche une erreur, ouvrez le [JSON brut](https://raw.githubusercontent.com/valentinBoch/Stremio-France-Config/refs/heads/main/aiometadata-config-2026-11-15.json), enregistrez-le sur votre appareil, puis sélectionnez-le avec le bouton **Import Configuration** sur la même page.
+
+2. Créez un compte [TMDB](https://www.themoviedb.org/), puis récupérez votre **API Key** (v3) dans [Paramètres → API](https://www.themoviedb.org/settings/api). Collez-la dans **Integrations → TMDB**. La configuration importée règle déjà la langue sur **French (France)**.
+3. Cliquez sur **Save Configuration**, puis copiez le lien d’installation. Ouvrez [Stremio Web → Extensions](https://web.stremio.com/#/addons), cliquez sur **+ Ajouter une extension**, collez le lien et confirmez avec **Installer**.
 
 ![Dans Stremio Web, une flèche violette pointe vers le bouton vert Ajouter une extension. Le filtre Installées et la carte AIOMetadata sont visibles.](docs/stremio-extensions-fr.jpg)
 
